@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 from flask import Flask, jsonify, request
-from werkzeug.contrib.fixers import ProxyFix
+from werkzeug.middleware.proxy_fix import ProxyFix
 app = Flask(__name__)
 
 
